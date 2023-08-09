@@ -20,7 +20,7 @@ dependencies {
     implementation 'javax.servlet:jstl:1.2'
 
 //    log를 출력하기 위한
-    testImplementation 'ch.qos.logback:logback-classic:1.2.3'
+    implementation 'ch.qos.logback:logback-classic:1.4.9'
 
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
